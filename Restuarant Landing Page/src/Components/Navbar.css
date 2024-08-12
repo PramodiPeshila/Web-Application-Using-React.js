@@ -1,0 +1,82 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+    padding: 10px 20px;
+    background: linear-gradient(rgb(249, 172, 5), rgba(11, 11, 11, 0.9));
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .logo h1 {
+    padding-left: 2px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .navbar-links-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 160px;
+    gap: 5.5rem;
+    
+  }
+  
+  .navbar-links-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(18, 10, 10);
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  
+  .navbar-links-container .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .navbar-links-container .nav-link span {
+    font-size: 16px;
+  }
+  
+  .theme-toggle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  
+  .theme-toggle-container h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  .navbar.light {
+    color: #000000;
+  }
+  
+  .navbar.dark {
+    color: #ffffff;
+  }
+
+  .timer{
+    margin-left:70px;
+  }
+  

@@ -1,0 +1,109 @@
+.about-section-container{
+    display:flex;
+    flex-direction: row;
+}
+.about-background-image-container {
+    position: absolute;
+    top:400px;
+    left: -150px;
+    z-index: -2;
+}
+.AboutUsImage img{
+    width:1000px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.about-section-text-container{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.about-section-text-container h2{
+    text-align: center;
+    margin-top: -5px;
+}
+.about-links-container{
+    position: relative;
+    top:20px;
+    text-align: center;
+}
+.link{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding:20px;
+    font-weight: 600;
+    color:rgb(236, 178, 71)
+}
+/* mission */
+.Image{
+    width: 200px;
+    margin: auto;
+    position: relative;
+    
+    top:300px;
+   
+}
+
+.Mission-Text{
+    display: flex;
+    flex-direction: column;
+}
+
+.Text{
+    top: 200px;
+   position: absolute;
+    text-align: center;
+}
+/* Values */
+.Values{
+    position:absolute;
+    top:220px;
+    left: 210px;
+    
+}
+
+.Values h2{
+    text-align: center;
+}
+
+.ImageValue  {
+    width: 400px;
+    margin: auto;
+    position: relative;
+    left:700px;
+    top: -250px;
+    
+   
+}
+/* members */
+.Photos{
+    display: flex;
+    
+}
+.Photos img{
+    width: 500px;
+    height: 350px;
+
+    
+}
+.member{
+    width:500px;
+    margin-left:20px
+}
+
+.member h5{
+    font-size: 20px;
+}
+
+.p01{
+margin-left: 30px;
+}
+
+
+
+
+
+
+
