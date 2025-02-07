@@ -10,9 +10,7 @@ import Mission from './Components/Mission';
 import Values from './Components/Values';
 import Members from './Components/Members';
 import { ThemeProvider ,useTheme} from './ThemeContext';
-import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
-
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App ()  {
