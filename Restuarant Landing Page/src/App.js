@@ -7,7 +7,7 @@ import About from "./Components/About";
 import ContactUs from "./Components/ContactUs";
 import Navbar from './Components/Navbar';
 import Mission from './Components/Mission';
-import Values from './Components/Values';
+import Values from './Components/Values';            
 import Members from './Components/Members';
 import { ThemeProvider ,useTheme} from './ThemeContext';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
