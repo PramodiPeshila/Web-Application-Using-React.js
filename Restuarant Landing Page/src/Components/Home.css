@@ -3,63 +3,125 @@
     top: -100px;
     right: -100px;
     z-index: -2;
+
 }
+
+
 .home-text-section {
     position: absolute;
-    top :180px;
-    left :50px;
+    top: 180px;
+    left: 50px;
     font-size: large;
     justify-content: center;
     align-items: center;
-    
 }
-.primary-heading{
+
+.primary-heading {
     position: relative;
-    left:10px;
+    left: 10px;
     text-align: center;
 }
-.primary-heading input{
-    width:270px;
-   height: 30px;
-   border-radius: 5px;
-   background-color: #f4cb8d57;
+
+.primary-heading input {
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f4cb8d57;
     margin-left: -7px;
 }
+
 .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
-    position:relative;
-    left:80px;
+    position: relative;
+    left: 80px;
     max-width: 500px;
-    color: rgb(172, 85, 85);
+    color: #daa683;
     margin: 1.5rem 0rem;
     text-align: center;
 }
-.secondary-button{
-    position: absolute;
-      left: 250px;
-      width: 700;
-      border-radius: 0.5rem;
-      font-size: medium;
-      font-weight: 900;
-      padding: 1rem 2rem;
-      background-color: #ef6c00;
 
+.secondary-button {
+    position: absolute;
+    left: 250px;
+    width: 700;
+    border-radius: 0.5rem;
+    font-size: medium;
+    font-weight: 900;
+    padding: 1rem 2rem;
+    background-color: #c27d45;
 }
-.order-message{
+
+.order-message {
     position: relative;
-    top : 80px;
+    top: 80px;
     left: 280px;
     font-size: large;
-
 }
+
 .home-image-section {
     position: absolute;
-    top : 110px;
-    left:900px;
-    width:400px;
+    top: 110px;
+    left: 900px;
+    width: 400px;
     height: 100px;
- }
-.home-image-section img{
+}
+
+.home-image-section img {
     border-radius: 50px;
     margin-left: 50px;
+}
+
+.meal-section {
+    position: relative;
+    top: 600px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+
+.meal-section-container {
+   background-color: #e1b395;
+   padding: 30px;
+   
+  }
+
+  
+
+.meal-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meal-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.meal-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.meal-card h3{
+    color: #ef6c00;
+}
+
+.meal-card p{
+    color:  #9d6232;
+}
+
+.book-button {
+    background: #ef6c00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }
