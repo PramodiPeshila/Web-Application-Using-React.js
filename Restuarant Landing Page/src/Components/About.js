@@ -6,6 +6,7 @@ import './About.css'
 
 const About = () => {
   return (
+    <div classname = "about-body">
     <div className="about-section-container">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
@@ -31,7 +32,8 @@ const About = () => {
         
         
       </div>
-    </div>
+      </div>
+      </div>
   );
 };
 
