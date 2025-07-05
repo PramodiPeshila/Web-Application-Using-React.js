@@ -1,3 +1,59 @@
+/* Members section styling for Home page */
+.Photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin: 60px auto 40px auto;
+  max-width: 1200px;
+  position: relative;
+  top: 600px;
+}
+.photos-container {
+  background: #fff7f0;
+  display: flex;
+}
+
+/* .member {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+  position: relative;
+} */
+.member:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0px 8px 32px rgba(210, 140, 80, 0.18);
+  z-index: 2;
+}
+.member img {
+  width: 200px;        /* consistent width */
+  height: 200px;       /* consistent height */
+  object-fit: cover;   /* crop without stretching */
+  border-radius: 10px; /* or 50% for circle */
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(210, 140, 80, 0.10);
+  box-shadow: 0 2px 8px rgba(210, 140, 80, 0.10);
+}
+
+.member h5 {
+  color: #ef6c00; /* matching meal-card heading */
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+}
+
+.member p {
+  color: #9d6232;
+  font-size: 1rem;
+}
 .home-bannerImage-container {
     position: absolute;
     top: -100px;
@@ -86,6 +142,11 @@
    
   }
 
+  .new-meal-section-container {
+   background-color: #775e0ab7;
+   padding: 30px;
+   
+  }
   
 
 .meal-cards-container {
@@ -124,4 +185,107 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+}
+
+
+.about-section-on-home {
+    margin: 60px auto 0 auto;
+    max-width: 1100px;
+    background: #fff7f0;
+    position : relative;
+    top: 600px;
+    border-radius: 30px;
+    box-shadow: 0 4px 24px rgba(210, 140, 80, 0.08);
+    padding: 40px 30px 30px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ContactUs.css */
+
+.contact-form-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+    z-index: 0;
+    top: 600px;
+    
+width: 100%;
+}
+
+form {
+  background-color: #d3d29993;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+form label {
+  font-weight: 600;
+  color: #444;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #b79b34;
+  outline: none;
+}
+
+form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+form p {
+  color: #ff4d4f;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #bca245;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #d0b34a;
+}
+
+.contact-page-wrapper{
+    position: relative;
+    top: 600px;
 }
