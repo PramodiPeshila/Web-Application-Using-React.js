@@ -35,9 +35,9 @@ function ContactForm() {
     
     
     <div className="contact-form-frame">
-    
+          <h1>Contact Us</h1>
         <form onSubmit={handleSubmit}>
-          <h2>Contact Us</h2>
+          
           <div>
             <label>Name</label><br/>
             <input
