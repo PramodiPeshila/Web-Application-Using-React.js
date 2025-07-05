@@ -1,42 +1,52 @@
-import React from 'react'
-import ManagerPhoto from '../Assest/ManagerPhoto.jpg'
-import secretary from '../Assest/secretary.jpg'
-import chefImage from '../Assest/chefImage.jpg'
-import Customer from '../Assest/Customer.jpg'
+import React from 'react';
+import ManagerPhoto from '../Assest/ManagerPhoto.jpg';
+import secretary from '../Assest/secretary.jpg';
+import chefImage from '../Assest/chefImage.jpg';
+import Customer from '../Assest/Customer.jpg';
 
 function Members() {
   return (
-   
-      < div className="Photos">
-        <div className='member'>
-          <img src={ManagerPhoto} alt="" />
-          <h5> Mrs. K.Perera - Manager</h5>
-          <p>Founder of the Resturant P & A.Highly respected and trusted Manager with his experience in the industry.
-              Under her guidance "P&A" name has become prestigate not only in Sri Lanka,But also throughout the world</p>
-        </div>
+    <div className="meal-section">
+      <div className="new-meal-section-container">
+        <h1>Meet Our Team</h1>
+        <div className="meal-cards-container">
 
-        <div className='member'> 
-          <img src={secretary} alt="" />
-          <h5>Mrs.Fernando - Financial Secretary</h5>
-          <p>Mrs Fernando is a trusworthy Employee at the beginning of the company.She had study about Financial Mnagement and throughout her knowledge and experience
-              the company becomes strong and competitable day by day
-          </p>
-        </div> 
+          <div className="meal-card member">
+            <img src={ManagerPhoto} alt="Manager" />
+            <h5>Mrs. K. Perera - Manager</h5>
+            <p>
+              Founder of the Restaurant P & A. A highly respected and trusted manager. Under her guidance, "P&A" has become prestigious not only in Sri Lanka but also globally.
+            </p>
+          </div>
 
-        <div className='member'> 
-          <img src={Customer} alt="" /> 
-            <h5>Mr.Arun - Customer Care Manager</h5>
-            <p>Mr Gunawardhana is the Person who has the responsibility of Working with Customers.He has to engage with Customers and collect their feedbacks,Suggestions about Products.And also he has the responsibility to manage the Delivery services.</p>
-        </div>
+          <div className="meal-card member">
+            <img src={secretary} alt="Financial Secretary" />
+            <h5>Mrs. Fernando - Financial Secretary</h5>
+            <p>
+              A trustworthy employee since the company’s beginning. Her background in Financial Management strengthens the company every day.
+            </p>
+          </div>
 
-        <div className='member'>
-          <img src={chefImage} alt="" />
-            <h5>Mr.P.Jayawardhana - Head Chef </h5>
-            <p>Mr P.Jayawardhana has years of experience in the Cooking industry and all other Chefs are controlled under him.His ability also help to strong the company.</p>
+          <div className="meal-card member">
+            <img src={Customer} alt="Customer Care Manager" />
+            <h5>Mr. Arun - Customer Care Manager</h5>
+            <p>
+              Responsible for customer interactions, feedback collection, and managing delivery services. A key link between the company and its clients.
+            </p>
+          </div>
+
+          <div className="meal-card member">
+            <img src={chefImage} alt="Head Chef" />
+            <h5>Mr. P. Jayawardhana - Head Chef</h5>
+            <p>
+              With years of experience, he leads the kitchen team. His culinary skills and leadership contribute significantly to the company’s success.
+            </p>
+          </div>
+
         </div>
       </div>
-    
-  )
+    </div>
+  );
 }
 
-export default Members
+export default Members;
