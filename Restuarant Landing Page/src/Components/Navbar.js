@@ -28,18 +28,18 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-links-container">
-        <Link to="/" className="nav-link">
+        <a href="#top" className="nav-link">
           <HomeIcon />
           <span>Home</span>
-        </Link>
-        <Link to="/About" className="nav-link">
+        </a>
+         <a href="#about" className="nav-link">
           <InfoIcon />
           <span>About</span>
-        </Link>
-        <Link to="/contact-us" className="nav-link">
+        </a>
+         <a href="#contact" className="nav-link">
           <PhoneRoundedIcon />
           <span>Contact Us</span>
-        </Link>
+        </a>
         <h2 className='timer'>{dateTime.toLocaleTimeString()}</h2>
       </div>
 
